@@ -1,6 +1,7 @@
 # Sliding puzzle ai
 
 game project created with [cocos creator](http://www.cocos2d-x.org/download) with java script 
+you can play it [here](http://www.newgrounds.com/portal/view/678013) 
 
 This is a sliding puzzle game AI this is for educational purposes 
 it uses a* algorithm and it has 3 heuristics 
