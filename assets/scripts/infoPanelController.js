@@ -17,6 +17,7 @@ cc.Class({
     // use this for initialization the panel state and the website url
     onLoad: function () {
         this.siteUrl = 'http://madebyjacob.com/';
+        this.githubUrl = 'https://github.com/JacobSobolev/sliding-puzzle-ai';
         if (this.visable){
             this.node.active = true;
         }
@@ -39,5 +40,10 @@ cc.Class({
     //open new tab to the website
     goToSite: function(){
         window.open(this.siteUrl, '_blank'); 
+    },
+    
+    //open new tab to the website
+    goToSource: function(){
+        window.open(this.githubUrl, '_blank'); 
     },
 });
